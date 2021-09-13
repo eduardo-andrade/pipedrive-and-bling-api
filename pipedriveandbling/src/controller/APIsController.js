@@ -25,7 +25,7 @@ class integrateOrder {
           try {
             saveOrder = await Sale.saveSales(order);
             returnData.orders.push(saveOrder);
-          } catch (err) { return returnData;}
+          } catch (err) { return returnData;}}
 
         else {
           return res.status(500).send({ error: 'Error happened on create order in Bling'})
