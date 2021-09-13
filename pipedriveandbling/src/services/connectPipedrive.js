@@ -11,7 +11,6 @@ const getWonSales = async () => {
       },
       
     });
-    console.log('pipe ok');
     return wonSales.data.data;
   } catch (err) {
     return res.status(400).send({error: 'Pipedrive wont connected'});
