@@ -30,7 +30,7 @@ npm install
 ```
 cp local.env .env
 ```
-4. In the correct working directory, start the project with the termninal command:
+4. In the correct working directory, start the project with the terminal command:
 ```
 npm start
 ```
